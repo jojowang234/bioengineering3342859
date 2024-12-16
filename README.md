@@ -3,6 +3,8 @@
 2.Params - Includes the pretrained parameters for the five models as well as the test data obtained after training.  
 3.Testing - A program used to classify user-provided images, returning the most likely class and its probability.  
 
+Few example results:
+
 
 
 
