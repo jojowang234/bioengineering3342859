@@ -7,7 +7,7 @@ function results = myimfcn(im)
     grayimg = rgb2gray(white_teeth_img); % Convert the image to grayscale
     eq_img = histeq(grayimg);
     gaussian_img = imgaussfilt(eq_img, 1); 
-    canny_edges = edge(gaussian_img, 'sobel');
+    canny_edges = edge(gaussian_img, 'canny');
     
     % Create masks for the top and bottom 1/7 and the left and right 1/8
     [h, w, ~] = size(im);
