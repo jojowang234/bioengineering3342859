@@ -12,9 +12,9 @@ CNN - Contains five convolutional neural network models and calculates the preci
 Params - Includes the pretrained parameters for the five models as well as the test data obtained after training.  
 Testing - A program used to classify user-provided images, returning the most likely class and its probability.  
 
-
-Few example results:
-
-
+Validation accuracy:  
+![image](https://github.com/jojowang234/bioengineering3342859/blob/main/CNN/Validation%20accuracy.jpg)  
+Validation loss function:  
+![image](https://github.com/jojowang234/bioengineering3342859/blob/main/CNN/Validation%20loss%20function.jpg)  
 
 
