@@ -1,4 +1,8 @@
 # Program
+Program Usage Flow:
+![image](https://github.com/jojowang234/bioengineering3342859/blob/main/Program%20Usage%20Flowchart.png)
+
+Result:
 The training program is used to predict and segment teeth. The file yolov8n.pt.pt is a pre-trained model. In the training code, model is used to load the pre-trained model, and results specifies the source of the image for segmentation. source indicates the image to be segmented, project specifies the name of the folder to save the results, and name defines the name of the cropped images after segmentation.
 
 Before segmentation:  
