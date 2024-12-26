@@ -1,8 +1,11 @@
 # Program
-Program Usage Flow:
-![image](https://github.com/jojowang234/bioengineering3342859/blob/main/Program%20Usage%20Flowchart.png)
+Program Usage Flow:  
+![image](https://github.com/jojowang234/bioengineering3342859/blob/main/Program%20Usage%20Flowchart.png)  
+First, use the pre-trained YOLO model to predict and segment tooth images. In the folder named "YOLO Model," you'll find the program files for tooth segmentation. The file yolov8_model.pt is the trained model file, while the predict file is the script for tooth segmentation. The example folder contains sample images, and the after folder contains the segmented sample images.  
+After running the tooth segmentation script from the yolov8_model, the images are then fed into the image_inhancement.m file in the “Image Processing” folder for further image processing.  
+Next, the images enhanced through image augmentation are trained using five convolutional neural network models located in the “CNN” folder, and the precision, recall, and F1 score for each class are obtained after training. And “Params” folder includes the pretrained parameters for the five models as well as the test data obtained after training.To verify the accuracy of the training, we then place the trained model into the Testing program in the “Testing” folder for validation using an unseen dataset, ultimately obtaining the validation accuracy.  
 
-Result:
+Result:  
 The training program is used to predict and segment teeth. The file yolov8n.pt.pt is a pre-trained model. In the training code, model is used to load the pre-trained model, and results specifies the source of the image for segmentation. source indicates the image to be segmented, project specifies the name of the folder to save the results, and name defines the name of the cropped images after segmentation.
 
 Before segmentation:  
