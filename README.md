@@ -6,7 +6,7 @@ After running the tooth segmentation script from the yolov8_model, the images ar
 Next, the images enhanced through image augmentation are trained using five convolutional neural network models located in the “CNN” folder, and the precision, recall, and F1 score for each class are obtained after training. And “Params” folder includes the pretrained parameters for the five models as well as the test data obtained after training.To verify the accuracy of the training, we then place the trained model into the Testing program in the “Testing” folder for validation using an unseen dataset, ultimately obtaining the validation accuracy.  
 
 Result:  
-The training program is used to predict and segment teeth. The file yolov8n.pt.pt is a pre-trained model. In the training code, model is used to load the pre-trained model, and results specifies the source of the image for segmentation. source indicates the image to be segmented, project specifies the name of the folder to save the results, and name defines the name of the cropped images after segmentation.
+The training program is used to predict and segment teeth. The file yolov8n.pt.pt is a pre-trained model. In the training code, model is used to load the pre-trained model, and results specifies the source of the image for segmentation. source indicates the image to be segmented, project specifies the name of the folder to save the results, and name defines the name of the cropped images after segmentation. The segmented images were not pre-processed to a uniform size; instead, their proportions were constrained at a later stage.
 
 Before segmentation:  
 ![image](https://github.com/jojowang234/bioengineering3342859/blob/main/yolo%20model/example.jpg)  
