@@ -1,5 +1,5 @@
 # Program
-Program Usage Flow:  
+Intrabony defect of periodontal lesions program execution flow chart: 
 ![image](https://github.com/jojowang234/bioengineering3342859/blob/main/Program%20Usage%20Flowchart.png)  
 First, use the pre-trained YOLO model to predict and segment tooth images. In the folder named "YOLO Model," you'll find the program files for tooth segmentation. The file yolov8_model.pt is the trained model file, while the predict file is the script for tooth segmentation. The example folder contains sample images, and the after folder contains the segmented sample images.  
 After running the tooth segmentation script from the yolov8_model, the images are then fed into the image_inhancement.m file in the “Image Processing” folder for further image processing.  
