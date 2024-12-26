@@ -37,7 +37,7 @@ Validation loss function:
 ![image](https://github.com/jojowang234/bioengineering3342859/blob/main/CNN/Validation%20loss%20function.jpg)  
 
 Remarks:  
-During the YOLOv8 model training, the input BW  images were 1733 x 1196 in size. However, the segmented images were not pre-processed to a uniform size, with only proportional constraints applied at a later stage.In the CNN model, the input size for the images is 227 × 227 × 3.  
+During the YOLOv8 model training, the input BW  images were 1733 x 1196 in size. However, the segmented images were not pre-processed to a uniform size, with only proportional constraints applied at a later stage. In the CNN model, the input size for the images is 227 × 227 × 3.  
 You need to manually upload the images for verification.  
 
 
